@@ -1,0 +1,68 @@
+{
+  "Ubuntu": {
+    "owner": "099720109477",
+    "ssh_username": "ubuntu",
+    "ami_filter": "ubuntu/images/hvm-ssd/ubuntu-jammy-22.04-amd64-server-*",
+    "package_manager": "apt-get"
+  },
+  "Amazon Linux": {
+    "owner": "137112412989",
+    "ssh_username": "ec2-user",
+    "ami_filter": "amzn2-ami-hvm-2.0.*-x86_64-gp2",
+    "package_manager": "yum"
+  },
+  "Oracle Linux": {
+    "owner": "131827586825",
+    "ssh_username": "ec2-user",
+    "ami_filter": "Oracle-Linux-9*",
+    "package_manager": "yum"
+  },
+  "Red Hat Enterprise Linux": {
+    "owner": "309956199498",
+    "ssh_username": "ec2-user",
+    "ami_filter": "RHEL-9*_HVM-*-x86_64-*",
+    "package_manager": "yum"
+  },
+  "Rocky Linux": {
+    "owner": "792107900819",
+    "ssh_username": "ec2-user",
+    "ami_filter": "Rocky-9-EC2-Base-*-x86_64-*",
+    "package_manager": "dnf"
+  },
+  "Debian": {
+    "owner": "136693071363",
+    "ssh_username": "admin",
+    "ami_filter": "debian-11-amd64-*",
+    "package_manager": "apt-get"
+  },
+  "SUSE Linux": {
+    "owner": "013907871322",
+    "ssh_username": "ec2-user",
+    "ami_filter": "suse-sles-15-sp4-v202*-hvm-ssd-x86_64",
+    "package_manager": "zypper"
+  },
+  "CentOS": {
+    "owner": "125523088429",
+    "ssh_username": "centos",
+    "ami_filter": "CentOS-7-x86_64-GenericCloud-*",
+    "package_manager": "yum"
+  },
+  "AlmaLinux": {
+    "owner": "879635582678",
+    "ssh_username": "ec2-user",
+    "ami_filter": "AlmaLinux-9-*-x86_64-*",
+    "package_manager": "dnf"
+  },
+  "Fedora": {
+    "owner": "125523088429",
+    "ssh_username": "fedora",
+    "ami_filter": "Fedora-Cloud-Base-39-*-x86_64-*",
+    "package_manager": "dnf"
+  },
+  "Windows": {
+    "owner": "801119661308",
+    "ssh_username": "Administrator",
+    "ami_filter": "Windows_Server-2022-English-Full-Base-*",
+    "package_manager": ""
+  }
+}
