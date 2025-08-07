@@ -32,7 +32,7 @@ The **Cassandra Configurator** is a full-stack application that streamlines the 
 
 | Configuration UI | Final AMI Output |
 |------------------|------------------|
-| ![Configurator UI](./screenshots/screenshot-1.png) | ![AMI ID Output](./screenshots/screenshot-2.png) |
+| ![Configurator UI](./screenshots/Configurator UI.png) | ![AMI ID Output](./screenshots/AMI ID Output.png) |
 
 ---
 
