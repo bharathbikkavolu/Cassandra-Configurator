@@ -112,11 +112,6 @@ This AMI is ready for production deployment with Cassandra + selected tools pre-
 
 Contributions are welcome! Please feel free to open issues or submit PRs.
 
----
-
-## 📜 License
-
-This project is licensed under the [MIT License](LICENSE).
 
 ---
 
