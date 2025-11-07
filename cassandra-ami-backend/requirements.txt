@@ -1,0 +1,6 @@
+fastapi==0.110.0         # your backend framework
+uvicorn==0.29.0          # ASGI server to run FastAPI apps
+boto3==1.28.0            # AWS SDK
+PyYAML==6.0              # YAML handling
+requests==2.31.0         # external HTTP APIs
+python-dotenv==1.0.1     # for .env file support
